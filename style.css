@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.482);
+    display: block;
+    background: url(imagens/computer-1209641_640.jpg) center center no-repeat;
+    background-size: cover;
+    height: 300px;
+    
+     
+}
+header,h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header>p{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 750px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+header,a{
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.586);
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+    
+
+section.normal{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+section.normal>h2{
+    
+    text-align: center;
+}
+section.normal>p{
+    padding: 20px;
+    
+}
+
+
+section.color{
+  
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+   background-color: white;
+} 
+section.color,h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main.meio{
+    background-color: black;
+}
+
+.pc>h3{
+    background: url(imagens/html-basico.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.telefone>h3{
+    background: url(imagens/celular-seguro-contra-roubos.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+.marke>h3{
+    background: url(imagens/PC-grafico.jpg) center center no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+main.cores{
+    display: grid;
+
+}
+
+.azul{
+  
+    color: white;
+    text-align: center;
+    background-color: dodgerblue;
+}
+.azul>h2{
+    
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+.azul>p{
+    padding-bottom: 15px;
+}
+
+.grey{
+    text-align: center;
+    color: white;
+    background-color: rgb(74, 74, 74);
+}
+.grey>h2{
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.grey>p{
+    padding-bottom: 15px;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+}
+footer>p{
+    padding-top: 20px;
+}
+@media screen and (min-width:700px) {
+   main.meio{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:8px ;
+   }
+   main.cores{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    
+   }
+
+}
